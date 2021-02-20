@@ -1,5 +1,13 @@
 <%= form_with model: @user do |form| %>
-<%= form.text_field :name %>
-<%= form.text_field :password %>
-<%= form.submit %>
+<ul class="">
+    <li class="">
+        <%= form.text_field :name %>
+    </li>    
+    <li class="">
+        <%= form.text_field :password %>
+    </li>    
+    <li class="">
+        <%= form.submit %>
+    </li>    
+</ul>
 <% end %>
